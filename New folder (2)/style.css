@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+}
+.container{
+  
+    position: relative;
+
+}
+
+img{
+    width: 100px;
+    height: 50px;
+    border-radius: 50px;
+    float: right; 
+    margin-top: 10px;  
+}
+input{
+    margin-top: 10px;
+    width: 700px;
+    height: 50px;
+    margin-right: -70px;
+    position: absolute;
+    top: 0;
+    right: 300px;
+    font-size: large;
+    text-align: center;
+    border-radius: 50px;
+    z-index: -1;
+}
+.icon{
+    position: absolute;
+    left: 0;
+    font-size: 5px;
+}
+.avail{
+    position: absolute;
+    width: 1000px;
+    height: 50px;
+    top: 100px;
+    right: 240px;
+    display: flex;
+    border: 1px solid black;
+    border-radius: 50px;
+    padding-right: 0;
+    margin-right: -10px;
+} 
+.avail h1{
+margin: 5px 100px;
+}
+
+.avail button{
+    padding-left: 70px;
+    border-radius: 50px;
+    color: rgb(233, 233, 245);
+    background:blue;
+    cursor: pointer;
+}
+.press{
+    font-size: 25px;
+    padding-right: 60px;
+    
+}
+.paren{
+    margin-top: 20px;
+    margin-left: 115px;
+    width: 900px;
+    height: 100%;
+    padding: 55px;
+    display: inline-block;
+    background:#E6E6E6
+    ;
+
+}
+.pro{
+    flex-wrap: wrap;
+}
+.pro img{
+    width: 250px;
+    height: 250px;
+    margin: 25px;
+    margin-top: 50px;
+    cursor: pointer;
+}
+.side-bar{
+    width: 222px;
+    height: 100%;
+    position: absolute;
+    right: 0px;
+    margin: 20px 0 0 10px;
+}
+.side-bar ul{
+    margin-top: 100px;
+    margin-bottom: 15px;
+    height: 100%;
+    padding-bottom: 50px;
+    float: right;
+
+
+}
+.side-bar ul li a{
+    font-size: 20px;
+    margin-top: 100px;
+    margin-right: 10px;
+    text-decoration: none;
+}
+.side-bar ul li{
+    list-style-type: none;
+    box-sizing: border-box;
+    padding-bottom: 40px;
+    right: 0;
+
+}
+
+
+/* @media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+/* Medium */
+/* @media (min-width: 992px) { */
+  /* .container { */
+    /* width: 970px; */
+  }
+}
+/* Large */
+/* @media (min-width: 1200px) { */
+  /* .container { */
+    /* width: 1170px; */
+  }
+} */
